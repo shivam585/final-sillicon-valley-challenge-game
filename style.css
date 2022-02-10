@@ -1,0 +1,281 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border: 10px solid maroon;
+ 
+  margin-top: 0px;
+}
+.customButton {
+  width:230px;
+  height:50px;
+  background-color: #fac822;
+  border: 7px solid rgb(12, 8, 8);
+  color: #FFFF;
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: vollkorn;
+  margin: 4px 4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.nextButton {
+  width:70px;
+  height:50px;
+  background-color: #ff7011;
+  border: 5px solid rgb(12, 8, 8);
+  color: #FFFF;
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center-80;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: vollkorn;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.previousButton {
+  width:70px;
+  height:50px;
+  background-color: hsl(261, 100%, 55%);
+  border: 5px solid rgb(12, 8, 8);
+  color: #FFFF;
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center-80;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: vollkorn;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.levelButton {
+  width:250px;
+  height:70px;
+  background-color: hsl(283, 98%, 36%);
+  border: 10px solid rgb(12, 8, 8);
+  color: #FFFF;
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center-500;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  font-family:Algerian;
+  margin: 2px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.finallevelButton {
+  width:300px;
+  height:70px;
+  background-color: hsl(51, 96%, 53%);
+  border: 10px solid rgb(12, 8, 8);
+  color: #FFFF;
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center-500;
+  text-decoration:rgb(20, 16, 9);
+  display: inline-block;
+  font-stretch: ultra-expanded;
+  font-size: 30px;
+  font-family:Algerian;
+  margin: 2px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.minigamelevelButton {
+  width:360px;
+  height:70px;
+  background-color: hsl(24, 100%, 49%);
+  border: 15px solid rgb(12, 8, 8);
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center-500;
+  text-decoration:rgb(238, 211, 164);
+  display: inline-block;
+  font-stretch: ultra-expanded;
+  font-size: 40px;
+  font-family:Georgia;
+  margin: 2px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.arrowbutton{
+  width:80px;
+  height:80px;
+  background-color: hsla(170, 100%, 50%, 0.384);
+  border: 15px solid rgba(12, 8, 8, 0.432);
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center-500;
+  text-decoration:#51fa02;
+  display: inline-block;
+  font-stretch: ultra-expanded;
+  font-size: 40px;
+  font-family:Impact;
+  margin: 4px 4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+
+
+
+}
+
+.backgrbutton{
+  width:1300px;
+  height:600px;
+  background-color: #c7620593;
+  border: 15px solid rgb(187, 90, 25);
+  color: rgb(153, 87, 11);
+  font-weight:bold;
+  border-radius: 20px;
+  margin-bottom:100px;
+  text-align: center-500;
+  text-decoration:rgb(255, 170, 113);
+  display: inline-block;
+  font-stretch: ultra-expanded;
+  font-size: 40px;
+  font-family:Impact;
+  margin: 4px 4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+
+
+
+  
+
+}
+
+
+.backgrbutton2{
+  width:1350px;
+  height:670px;
+  background-color: #00ff1518;
+  border: 20px solid rgba(47, 160, 3, 0.774);
+  color: rgb(153, 87, 11);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center-500;
+  text-decoration:#ff8800;
+  display: inline-block;
+  font-stretch: ultra-expanded;
+  font-size: 40px;
+  font-family:Impact;
+  margin: 4px 4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+
+
+}
+
+.dreambutton {
+  width:360px;
+  height:110px;
+  background-color: hsl(17, 100%, 49%);
+  border: 20px solid rgba(0, 0, 0, 0.541);
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center-500;
+  text-decoration:#f0600073;
+  display: inline-block;
+  font-stretch: ultra-expanded;
+  font-size: 40px;
+  font-family:Georgia;
+  margin: 2px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+
+.dreamappbuttons {
+  width:480px;
+  height:80px;
+  background-color: hsl(0, 100%, 49%);
+  border: 10px solid rgba(0, 0, 0, 0.671);
+  color: rgb(238, 241, 11);
+  font-weight:bold;
+  border-radius: 15px;
+  margin-bottom:100px;
+  text-align: center-1200;
+  text-decoration:#73ff00;
+  display: inline-block;
+  font-stretch: ultra-expanded;
+  font-size: 40px;
+  font-family:Georgia;
+  margin: 2px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.applogo {
+  width:500px;
+  height:100px;
+  background-color: #ff8800d8;
+  border: 10px solid rgba(255, 61, 2, 0.733);
+  color: rgb(241, 11, 11);
+  font-weight:bold;
+  border-radius: 30px;
+  margin-bottom:100px;
+  text-align: center-1200;
+  text-decoration:#ffa600;
+  display: inline-block;
+  font-stretch: ultra-expanded;
+  font-size: 50px;
+  font-family:Georgia;
+  margin: 2px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}

@@ -1,1 +1,1 @@
-# final-sillicon-valley-challenge-game
+# sillicon-valley-2
